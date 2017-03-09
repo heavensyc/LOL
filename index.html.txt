@@ -1,8 +1,0 @@
-<!DOCTYPE html>
-
-<html>
-	<head>
-		<link ref="style.css" type="text/css" rel="stylesheet">
-	</head>
-	
-</html>
