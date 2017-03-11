@@ -11,17 +11,22 @@ body {
 
 .header{
 	text-align: center;
-	text-emphasis-style: sesame;
+
 	background-size: contain;
 	font-family: 'VT323', monospace;
 
 }
+
+.data {
+	background-color: #fff222;
+}
+
 .linkz img{
 	display: inline-block;
-	height: 75px;	width: 175px;
-	float: left;
+	height: 55px;	width: 175px;
 	opacity: 0.8;
 }
+
 
 #searchbox,#search,#submit{
 	opacity: 0.8;
@@ -94,6 +99,7 @@ body {
 
 .footer{
 	background-color: #fff;
+	font-family: 'VT323', monospace;
 }
 
 }
