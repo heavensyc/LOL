@@ -3,6 +3,7 @@
 
 
 body {
+	padding-top: 100px;
 	background: url("http://na.leagueoflegends.com/sites/default/files/upload/art/teambuilder-wallpaper.jpg") no-repeat right top;
 	background-attachment: fixed;
 	background-size: cover;
@@ -11,15 +12,20 @@ body {
 
 .header{
 	text-align: center;
-
 	background-size: contain;
-	font-family: 'VT323', monospace;
+  font-family: 'Roboto Condensed', sans-serif;
+
+	font-weight: bold;
+	font-size: 4em;
+	color: rgba(0, 0, 0, 0.8);
+
 
 }
 
 .data {
 	background-color: #fff;
 	opacity: 0.5;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 .linkz img{
@@ -102,6 +108,7 @@ body {
 	background-color: #fff;
 	opacity: 0.5;
 	font-family: 'VT323', monospace;
+	font-style: italic;
 }
 
 }
