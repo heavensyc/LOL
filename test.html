@@ -2,44 +2,78 @@
 
 <html>
 	<head>
-	<!-- First font for search bar, second for head. -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-		<title>League of Alex</title>
+		<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+		<title>Michael Park</title>
 		<link href="teststyle.css" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="script.js"></script>
+
+
+
+
+
 	</head>
 
+
+<div class=navbar>
+
+
+
+
+
+</div>
+
+
+
+
 <div class="header">
-		<h1>League of Alex</h1>
+		<h1>duoq.gg</h1>
 </div>
 
 <body>
 
-<form id="searchbox" action="">
+<form id="searchbox" action=""> <!--enter url action here later-->
     <input id="search" type="text" placeholder="Enter Summoner Name">
     <input id="submit" type="submit" value="Search">
 </form>
 
 <div class="data">
-<table>
+
+<table width="400">
 	<thead>
-		<tr> <!--row 1-->
-			<th scope="col">Summoner 1 Data</th>
-			<th scope="col">Summoner 2 Data</th>
-			<th scope="col">Summoner 3 Data</th>
-			<th scope="col">Summoner 4 Data</th>
+		<tr>
+			<th scope="col"></th>
+			<th scope="col">% Win Rate</th>
+			<th scope="col">Data Comparison</th>
+			<th scope="col">ETC</th>
+		</tr>
+		<tr>
+				<button class="summoner" onclick="summonerName()">Summoner 1</button>
+		</tr>
+		<tr>
+			<button class="summoner" onclick="summonerName()">Summoner 2</button>
+		</tr>
+		<tr>
+			<button class="summoner" onclick="summonerName()">Summoner 3</button>
+		</tr>
+		<tr>
+			<button class="summoner" onclick="summonerName()">Summoner 4</button>
 		</tr>
 	</thead>
-	<tbody>
-		<tr> <!--row 2-->
-			<td>% Winrate</td>
-			<td>Other info</td>
-			<td>More stuff</td>
-			<td>Even more stuff</td>
+	<!--<tbody>
+		<tr>
+			111
 		</tr>
-	</tbody>
+		<tr>
+			222
+		</tr>
+		<tr>
+			333
+		</tr>
+	</tbody> -->
+
 
 </table>
 </div>
@@ -47,22 +81,25 @@
 </body>
 
 
-<div class="footer"
+<div class="footer">
+
 	<p> Created by Alex Chang, Alex Luu, and Michael Park </p>
 
 		<div class="linkz">
 				<div class="opgg">
-					<a href="https://na.op.gg/"><img src="http://esports.op.gg/wp-content/uploads/2016/05/OPGG-Outline-2-CS5.png" alt="op.gg" /></a>
+					<a href="https://na.op.gg/" onclick="leaveLink()"><img src="http://esports.op.gg/wp-content/uploads/2016/05/OPGG-Outline-2-CS5.png" alt="op.gg" /></a>
 				</div>
 				<div class="prob">
-					<a href="http://www.probuilds.net/"><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/panel-30367681-image-7a953c75b331bcd1-320.png" alt="ProBuilds" /></a>
+					<a href="http://www.probuilds.net/"  onclick="leaveLink()"><img src="https://static-cdn.jtvnw.net/jtv_user_pictures/panel-30367681-image-7a953c75b331bcd1-320.png" alt="ProBuilds" /></a>
 				</div>
 				<div class="chgg">
-					<a href="https://www.champion.gg/"><img src="http://champion.gg/img/logo.png" alt="champion.gg"/></a>
+					<a href="https://www.champion.gg/"  onclick="leaveLink()"><img src="http://champion.gg/img/logo.png" alt="champion.gg"/></a>
 				</div>
 		</div>
 
 </div>
+
+
 
 
 </html>

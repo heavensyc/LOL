@@ -23,16 +23,13 @@ body {
 }
 
 .data {
-	background-color: #fff;
+	background-color: #fffeee;
+	background-size: contain;
 	opacity: 0.5;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.linkz img{
-	display: inline-block;
-	height: 55px;	width: 175px;
-	opacity: 0.8;
-}
+
 
 
 #searchbox,#search,#submit{
@@ -104,11 +101,43 @@ body {
 }
 
 
+
+table th {
+	border: 1px solid;
+	color: blue;
+}
+
+table{
+	margin: 50 px;
+	text-align: center;
+	overflow-y: scroll;
+	height: 50%;
+
+	position: static;
+	padding-bottom: 500px;
+}
+
+thead{
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.linkz img{
+	display: block;
+	height: 52px;	width: 175px;
+	opacity: 0.85;
+	float: right;
+}
+
 .footer{
-	background-color: #fff;
+	margin-top: 0;
+	background-color: #000;
 	opacity: 0.5;
 	font-family: 'VT323', monospace;
 	font-style: italic;
+}
+.footer p{
+	background-color: #fffaaa;
 }
 
 }
